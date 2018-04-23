@@ -1,0 +1,21 @@
+@using DevExpress.Web.Mvc
+@using DevExpress.Web.Mvc.UI
+@using System.Web.Mvc
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    @Html.DevExpress().GetStyleSheets(
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Editors }
+    )
+    <script type="text/javascript" src="@Url.Content("~/Scripts/MicrosoftAjax.debug.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/MicrosoftMvcAjax.debug.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/MicrosoftMvcValidation.js")"></script>
+   @Html.DevExpress().GetScripts(
+        new Script { ExtensionSuite = ExtensionSuite.Editors }
+    )
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>
