@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
+* [MyModel.cs](./CS/Models/MyModel.cs) (VB: [MyModel.vb](./VB/Models/MyModel.vb))
+* [_ViewStart.cshtml](./CS/Views/_ViewStart.cshtml)
+* [Editors.cshtml](./CS/Views/Home/Editors.cshtml)
+* [Index.cshtml](./CS/Views/Home/Index.cshtml)
+* [_Layout.cshtml](./CS/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # How to use Microsoft validation with an AJAX form to validate the Model properties on the client side
 
 
