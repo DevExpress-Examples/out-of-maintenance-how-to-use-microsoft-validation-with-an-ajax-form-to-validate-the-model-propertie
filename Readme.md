@@ -9,6 +9,9 @@
 * [_Layout.cshtml](./CS/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # How to use Microsoft validation with an AJAX form to validate the Model properties on the client side
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2923/)**
+<!-- run online end -->
 
 
 <p>The example demonstrates how to validate a Model using validation attributes applied to the Model properties.</p>
